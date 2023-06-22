@@ -1,7 +1,7 @@
+import json
 from pprint import pprint
 
 from selenium import webdriver
-from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 
@@ -31,16 +31,21 @@ hrefs = [element.get_attribute("href") for element in elements]
 components = []
 
 for href in hrefs:
+    if "all-components" in href:
+        continue
     driver.get(href)
     name = driver.find_element(By.ID, "ws-page-title").text
     div_elem = driver.find_element(By.CSS_SELECTOR, "div.pf-v5-c-page__main-group")
-    try:
-        description = div_elem.find_element(By.TAG_NAME, "p").text
-    except NoSuchElementException:
-        description = ""
-
+    description = div_elem.find_element(By.TAG_NAME, "p").text
     components.append({"name": name, "link": href, "description": description})
 
 driver.quit()
+
+# Specify the file path
+file_path = "components.json"
+
+# Save the data as JSON
+with open(file_path, "w") as json_file:
+    json.dump(components, json_file)
 
 pprint(components)
