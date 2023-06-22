@@ -1,0 +1,30 @@
+version: "3.1"
+
+stories:
+
+- story: general help
+  steps:
+  - intent: help
+  - action: utter_help
+  - intent: what_patternfly
+  - action: utter_patternfly_info
+  - intent: quickstart
+  - action: utter_quickstart
+
+- story: general help 2
+  steps:
+  - intent: help
+  - action: utter_help
+  - intent: what_patternfly
+  - action: utter_patternfly_info
+  - intent: help
+  - action: utter_help
+  - intent: help
+  - action: utter_quickstart
+
+- story: quick start
+  steps:
+  - intent: help
+  - action: utter_help
+  - intent: quickstart
+  - action: utter_quickstart

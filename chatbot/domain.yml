@@ -1,0 +1,63 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - what_patternfly
+  - help
+  - quickstart
+
+responses:
+  utter_greet:
+  - text: "Hello {name}! How can I help?"
+  - text: "Hi {name}! What can I do for you?"
+  - text: "Hey {name}! What can I help you with?"
+  - text: "Hello there!"
+  - text: "Hi {name}!"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_help:
+  - text: "How can I help you?"
+  - text: "What can I help you with?"
+
+  utter_patternfly_info:
+  - text: "PatternFly is an open source design system built to drive consistency and unify teams. From documentation and components to code examples and tutorials, PatternFly is a place where design and development can thrive. We’re on a mission to help teams build consistent, accessible, and scalable enterprise product experiences—the open source way."
+
+  utter_quickstart:
+  - text: "Here is a link to About PatternFly which can help you orient more on this website: http://localhost:8003/get-started/about"
+
+entities:
+- destination
+- name
+
+slots:
+  destination:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: destination
+  name:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_entity
+        entity: name
+        intent: greet
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
