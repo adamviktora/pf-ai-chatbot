@@ -6,7 +6,7 @@ stories:
   steps:
   - intent: help
   - action: utter_help
-  - intent: what_patternfly
+  - intent: patternfly_info
   - action: utter_patternfly_info
   - intent: quickstart
   - action: utter_quickstart
@@ -15,7 +15,7 @@ stories:
   steps:
   - intent: help
   - action: utter_help
-  - intent: what_patternfly
+  - intent: patternfly_info
   - action: utter_patternfly_info
   - intent: help
   - action: utter_help

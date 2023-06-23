@@ -17,7 +17,7 @@ nlu:
     - goodevening
     - good afternoon
     - Hi, my name is [Adam](name)
-    - hello, I am [Name](name)
+    - hello, I am [Ashley](name)
 
 - intent: goodbye
   examples: |
@@ -51,40 +51,6 @@ nlu:
     - no way
     - not really
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
@@ -100,7 +66,7 @@ nlu:
     - help
     - heeeelp
 
-- intent: what_patternfly
+- intent: patternfly_info
   examples: |
     - what is patternfly?
     - patternfly
@@ -116,3 +82,1122 @@ nlu:
     - general overview
     - how to use this library?
     - how?
+
+- intent: get_component_info
+  examples: |
+    - [about modal](component)
+    - What is an [about modal](component)?
+    - Tell me about the [about modal](component).
+    - Give me details on the [about modal](component) component.
+    - Explain the [about modal](component) to me.
+    - Explain the [about modal](component) component to me.
+    - [About modal](component)
+    - What is an [About modal](component)?
+    - Tell me about the [About modal](component).
+    - Give me details on the [About modal](component) component.
+    - Explain the [About modal](component) to me.
+    - Explain the [About modal](component) component to me.
+    - [accordion](component)
+    - What is an [accordion](component)?
+    - Tell me about the [accordion](component).
+    - Give me details on the [accordion](component) component.
+    - Explain the [accordion](component) to me.
+    - Explain the [accordion](component) component to me.
+    - [Accordion](component)
+    - What is an [Accordion](component)?
+    - Tell me about the [Accordion](component).
+    - Give me details on the [Accordion](component) component.
+    - Explain the [Accordion](component) to me.
+    - Explain the [Accordion](component) component to me.
+    - [action list](component)
+    - What is an [action list](component)?
+    - Tell me about the [action list](component).
+    - Give me details on the [action list](component) component.
+    - Explain the [action list](component) to me.
+    - Explain the [action list](component) component to me.
+    - [Action list](component)
+    - What is an [Action list](component)?
+    - Tell me about the [Action list](component).
+    - Give me details on the [Action list](component) component.
+    - Explain the [Action list](component) to me.
+    - Explain the [Action list](component) component to me.
+    - [alert](component)
+    - What is an [alert](component)?
+    - Tell me about the [alert](component).
+    - Give me details on the [alert](component) component.
+    - Explain the [alert](component) to me.
+    - Explain the [alert](component) component to me.
+    - [Alert](component)
+    - What is an [Alert](component)?
+    - Tell me about the [Alert](component).
+    - Give me details on the [Alert](component) component.
+    - Explain the [Alert](component) to me.
+    - Explain the [Alert](component) component to me.
+    - [avatar](component)
+    - What is an [avatar](component)?
+    - Tell me about the [avatar](component).
+    - Give me details on the [avatar](component) component.
+    - Explain the [avatar](component) to me.
+    - Explain the [avatar](component) component to me.
+    - [Avatar](component)
+    - What is an [Avatar](component)?
+    - Tell me about the [Avatar](component).
+    - Give me details on the [Avatar](component) component.
+    - Explain the [Avatar](component) to me.
+    - Explain the [Avatar](component) component to me.
+    - [back to top](component)
+    - What is a [back to top](component)?
+    - Tell me about the [back to top](component).
+    - Give me details on the [back to top](component) component.
+    - Explain the [back to top](component) to me.
+    - Explain the [back to top](component) component to me.
+    - [Back to top](component)
+    - What is a [Back to top](component)?
+    - Tell me about the [Back to top](component).
+    - Give me details on the [Back to top](component) component.
+    - Explain the [Back to top](component) to me.
+    - Explain the [Back to top](component) component to me.
+    - [backdrop](component)
+    - What is a [backdrop](component)?
+    - Tell me about the [backdrop](component).
+    - Give me details on the [backdrop](component) component.
+    - Explain the [backdrop](component) to me.
+    - Explain the [backdrop](component) component to me.
+    - [Backdrop](component)
+    - What is a [Backdrop](component)?
+    - Tell me about the [Backdrop](component).
+    - Give me details on the [Backdrop](component) component.
+    - Explain the [Backdrop](component) to me.
+    - Explain the [Backdrop](component) component to me.
+    - [background image](component)
+    - What is a [background image](component)?
+    - Tell me about the [background image](component).
+    - Give me details on the [background image](component) component.
+    - Explain the [background image](component) to me.
+    - Explain the [background image](component) component to me.
+    - [Background image](component)
+    - What is a [Background image](component)?
+    - Tell me about the [Background image](component).
+    - Give me details on the [Background image](component) component.
+    - Explain the [Background image](component) to me.
+    - Explain the [Background image](component) component to me.
+    - [badge](component)
+    - What is a [badge](component)?
+    - Tell me about the [badge](component).
+    - Give me details on the [badge](component) component.
+    - Explain the [badge](component) to me.
+    - Explain the [badge](component) component to me.
+    - [Badge](component)
+    - What is a [Badge](component)?
+    - Tell me about the [Badge](component).
+    - Give me details on the [Badge](component) component.
+    - Explain the [Badge](component) to me.
+    - Explain the [Badge](component) component to me.
+    - [banner](component)
+    - What is a [banner](component)?
+    - Tell me about the [banner](component).
+    - Give me details on the [banner](component) component.
+    - Explain the [banner](component) to me.
+    - Explain the [banner](component) component to me.
+    - [Banner](component)
+    - What is a [Banner](component)?
+    - Tell me about the [Banner](component).
+    - Give me details on the [Banner](component) component.
+    - Explain the [Banner](component) to me.
+    - Explain the [Banner](component) component to me.
+    - [brand](component)
+    - What is a [brand](component)?
+    - Tell me about the [brand](component).
+    - Give me details on the [brand](component) component.
+    - Explain the [brand](component) to me.
+    - Explain the [brand](component) component to me.
+    - [Brand](component)
+    - What is a [Brand](component)?
+    - Tell me about the [Brand](component).
+    - Give me details on the [Brand](component) component.
+    - Explain the [Brand](component) to me.
+    - Explain the [Brand](component) component to me.
+    - [breadcrumb](component)
+    - What is a [breadcrumb](component)?
+    - Tell me about the [breadcrumb](component).
+    - Give me details on the [breadcrumb](component) component.
+    - Explain the [breadcrumb](component) to me.
+    - Explain the [breadcrumb](component) component to me.
+    - [Breadcrumb](component)
+    - What is a [Breadcrumb](component)?
+    - Tell me about the [Breadcrumb](component).
+    - Give me details on the [Breadcrumb](component) component.
+    - Explain the [Breadcrumb](component) to me.
+    - Explain the [Breadcrumb](component) component to me.
+    - [button](component)
+    - What is a [button](component)?
+    - Tell me about the [button](component).
+    - Give me details on the [button](component) component.
+    - Explain the [button](component) to me.
+    - Explain the [button](component) component to me.
+    - [Button](component)
+    - What is a [Button](component)?
+    - Tell me about the [Button](component).
+    - Give me details on the [Button](component) component.
+    - Explain the [Button](component) to me.
+    - Explain the [Button](component) component to me.
+    - [card](component)
+    - What is a [card](component)?
+    - Tell me about the [card](component).
+    - Give me details on the [card](component) component.
+    - Explain the [card](component) to me.
+    - Explain the [card](component) component to me.
+    - [Card](component)
+    - What is a [Card](component)?
+    - Tell me about the [Card](component).
+    - Give me details on the [Card](component) component.
+    - Explain the [Card](component) to me.
+    - Explain the [Card](component) component to me.
+    - [clipboard copy](component)
+    - What is a [clipboard copy](component)?
+    - Tell me about the [clipboard copy](component).
+    - Give me details on the [clipboard copy](component) component.
+    - Explain the [clipboard copy](component) to me.
+    - Explain the [clipboard copy](component) component to me.
+    - [Clipboard copy](component)
+    - What is a [Clipboard copy](component)?
+    - Tell me about the [Clipboard copy](component).
+    - Give me details on the [Clipboard copy](component) component.
+    - Explain the [Clipboard copy](component) to me.
+    - Explain the [Clipboard copy](component) component to me.
+    - [code block](component)
+    - What is a [code block](component)?
+    - Tell me about the [code block](component).
+    - Give me details on the [code block](component) component.
+    - Explain the [code block](component) to me.
+    - Explain the [code block](component) component to me.
+    - [Code block](component)
+    - What is a [Code block](component)?
+    - Tell me about the [Code block](component).
+    - Give me details on the [Code block](component) component.
+    - Explain the [Code block](component) to me.
+    - Explain the [Code block](component) component to me.
+    - [code editor](component)
+    - What is a [code editor](component)?
+    - Tell me about the [code editor](component).
+    - Give me details on the [code editor](component) component.
+    - Explain the [code editor](component) to me.
+    - Explain the [code editor](component) component to me.
+    - [Code editor](component)
+    - What is a [Code editor](component)?
+    - Tell me about the [Code editor](component).
+    - Give me details on the [Code editor](component) component.
+    - Explain the [Code editor](component) to me.
+    - Explain the [Code editor](component) component to me.
+    - [data list](component)
+    - What is a [data list](component)?
+    - Tell me about the [data list](component).
+    - Give me details on the [data list](component) component.
+    - Explain the [data list](component) to me.
+    - Explain the [data list](component) component to me.
+    - [Data list](component)
+    - What is a [Data list](component)?
+    - Tell me about the [Data list](component).
+    - Give me details on the [Data list](component) component.
+    - Explain the [Data list](component) to me.
+    - Explain the [Data list](component) component to me.
+    - [calendar month](component)
+    - What is a [calendar month](component)?
+    - Tell me about the [calendar month](component).
+    - Give me details on the [calendar month](component) component.
+    - Explain the [calendar month](component) to me.
+    - Explain the [calendar month](component) component to me.
+    - [Calendar month](component)
+    - What is a [Calendar month](component)?
+    - Tell me about the [Calendar month](component).
+    - Give me details on the [Calendar month](component) component.
+    - Explain the [Calendar month](component) to me.
+    - Explain the [Calendar month](component) component to me.
+    - [date and time picker](component)
+    - What is a [date and time picker](component)?
+    - Tell me about the [date and time picker](component).
+    - Give me details on the [date and time picker](component) component.
+    - Explain the [date and time picker](component) to me.
+    - Explain the [date and time picker](component) component to me.
+    - [Date and time picker](component)
+    - What is a [Date and time picker](component)?
+    - Tell me about the [Date and time picker](component).
+    - Give me details on the [Date and time picker](component) component.
+    - Explain the [Date and time picker](component) to me.
+    - Explain the [Date and time picker](component) component to me.
+    - [date picker](component)
+    - What is a [date picker](component)?
+    - Tell me about the [date picker](component).
+    - Give me details on the [date picker](component) component.
+    - Explain the [date picker](component) to me.
+    - Explain the [date picker](component) component to me.
+    - [Date picker](component)
+    - What is a [Date picker](component)?
+    - Tell me about the [Date picker](component).
+    - Give me details on the [Date picker](component) component.
+    - Explain the [Date picker](component) to me.
+    - Explain the [Date picker](component) component to me.
+    - [time picker](component)
+    - What is a [time picker](component)?
+    - Tell me about the [time picker](component).
+    - Give me details on the [time picker](component) component.
+    - Explain the [time picker](component) to me.
+    - Explain the [time picker](component) component to me.
+    - [Time picker](component)
+    - What is a [Time picker](component)?
+    - Tell me about the [Time picker](component).
+    - Give me details on the [Time picker](component) component.
+    - Explain the [Time picker](component) to me.
+    - Explain the [Time picker](component) component to me.
+    - [description list](component)
+    - What is a [description list](component)?
+    - Tell me about the [description list](component).
+    - Give me details on the [description list](component) component.
+    - Explain the [description list](component) to me.
+    - Explain the [description list](component) component to me.
+    - [Description list](component)
+    - What is a [Description list](component)?
+    - Tell me about the [Description list](component).
+    - Give me details on the [Description list](component) component.
+    - Explain the [Description list](component) to me.
+    - Explain the [Description list](component) component to me.
+    - [divider](component)
+    - What is a [divider](component)?
+    - Tell me about the [divider](component).
+    - Give me details on the [divider](component) component.
+    - Explain the [divider](component) to me.
+    - Explain the [divider](component) component to me.
+    - [Divider](component)
+    - What is a [Divider](component)?
+    - Tell me about the [Divider](component).
+    - Give me details on the [Divider](component) component.
+    - Explain the [Divider](component) to me.
+    - Explain the [Divider](component) component to me.
+    - [drag and drop](component)
+    - What is a [drag and drop](component)?
+    - Tell me about the [drag and drop](component).
+    - Give me details on the [drag and drop](component) component.
+    - Explain the [drag and drop](component) to me.
+    - Explain the [drag and drop](component) component to me.
+    - [Drag and drop](component)
+    - What is a [Drag and drop](component)?
+    - Tell me about the [Drag and drop](component).
+    - Give me details on the [Drag and drop](component) component.
+    - Explain the [Drag and drop](component) to me.
+    - Explain the [Drag and drop](component) component to me.
+    - [drawer](component)
+    - What is a [drawer](component)?
+    - Tell me about the [drawer](component).
+    - Give me details on the [drawer](component) component.
+    - Explain the [drawer](component) to me.
+    - Explain the [drawer](component) component to me.
+    - [Drawer](component)
+    - What is a [Drawer](component)?
+    - Tell me about the [Drawer](component).
+    - Give me details on the [Drawer](component) component.
+    - Explain the [Drawer](component) to me.
+    - Explain the [Drawer](component) component to me.
+    - [dual list selector](component)
+    - What is a [dual list selector](component)?
+    - Tell me about the [dual list selector](component).
+    - Give me details on the [dual list selector](component) component.
+    - Explain the [dual list selector](component) to me.
+    - Explain the [dual list selector](component) component to me.
+    - [Dual list selector](component)
+    - What is a [Dual list selector](component)?
+    - Tell me about the [Dual list selector](component).
+    - Give me details on the [Dual list selector](component) component.
+    - Explain the [Dual list selector](component) to me.
+    - Explain the [Dual list selector](component) component to me.
+    - [empty state](component)
+    - What is an [empty state](component)?
+    - Tell me about the [empty state](component).
+    - Give me details on the [empty state](component) component.
+    - Explain the [empty state](component) to me.
+    - Explain the [empty state](component) component to me.
+    - [Empty state](component)
+    - What is an [Empty state](component)?
+    - Tell me about the [Empty state](component).
+    - Give me details on the [Empty state](component) component.
+    - Explain the [Empty state](component) to me.
+    - Explain the [Empty state](component) component to me.
+    - [expandable section](component)
+    - What is an [expandable section](component)?
+    - Tell me about the [expandable section](component).
+    - Give me details on the [expandable section](component) component.
+    - Explain the [expandable section](component) to me.
+    - Explain the [expandable section](component) component to me.
+    - [Expandable section](component)
+    - What is an [Expandable section](component)?
+    - Tell me about the [Expandable section](component).
+    - Give me details on the [Expandable section](component) component.
+    - Explain the [Expandable section](component) to me.
+    - Explain the [Expandable section](component) component to me.
+    - [multiple file upload](component)
+    - What is a [multiple file upload](component)?
+    - Tell me about the [multiple file upload](component).
+    - Give me details on the [multiple file upload](component) component.
+    - Explain the [multiple file upload](component) to me.
+    - Explain the [multiple file upload](component) component to me.
+    - [Multiple file upload](component)
+    - What is a [Multiple file upload](component)?
+    - Tell me about the [Multiple file upload](component).
+    - Give me details on the [Multiple file upload](component) component.
+    - Explain the [Multiple file upload](component) to me.
+    - Explain the [Multiple file upload](component) component to me.
+    - [simple file upload](component)
+    - What is a [simple file upload](component)?
+    - Tell me about the [simple file upload](component).
+    - Give me details on the [simple file upload](component) component.
+    - Explain the [simple file upload](component) to me.
+    - Explain the [simple file upload](component) component to me.
+    - [Simple file upload](component)
+    - What is a [Simple file upload](component)?
+    - Tell me about the [Simple file upload](component).
+    - Give me details on the [Simple file upload](component) component.
+    - Explain the [Simple file upload](component) to me.
+    - Explain the [Simple file upload](component) component to me.
+    - [form](component)
+    - What is a [form](component)?
+    - Tell me about the [form](component).
+    - Give me details on the [form](component) component.
+    - Explain the [form](component) to me.
+    - Explain the [form](component) component to me.
+    - [Form](component)
+    - What is a [Form](component)?
+    - Tell me about the [Form](component).
+    - Give me details on the [Form](component) component.
+    - Explain the [Form](component) to me.
+    - Explain the [Form](component) component to me.
+    - [form control](component)
+    - What is a [form control](component)?
+    - Tell me about the [form control](component).
+    - Give me details on the [form control](component) component.
+    - Explain the [form control](component) to me.
+    - Explain the [form control](component) component to me.
+    - [Form control](component)
+    - What is a [Form control](component)?
+    - Tell me about the [Form control](component).
+    - Give me details on the [Form control](component) component.
+    - Explain the [Form control](component) to me.
+    - Explain the [Form control](component) component to me.
+    - [form select](component)
+    - What is a [form select](component)?
+    - Tell me about the [form select](component).
+    - Give me details on the [form select](component) component.
+    - Explain the [form select](component) to me.
+    - Explain the [form select](component) component to me.
+    - [Form select](component)
+    - What is a [Form select](component)?
+    - Tell me about the [Form select](component).
+    - Give me details on the [Form select](component) component.
+    - Explain the [Form select](component) to me.
+    - Explain the [Form select](component) component to me.
+    - [checkbox](component)
+    - What is a [checkbox](component)?
+    - Tell me about the [checkbox](component).
+    - Give me details on the [checkbox](component) component.
+    - Explain the [checkbox](component) to me.
+    - Explain the [checkbox](component) component to me.
+    - [Checkbox](component)
+    - What is a [Checkbox](component)?
+    - Tell me about the [Checkbox](component).
+    - Give me details on the [Checkbox](component) component.
+    - Explain the [Checkbox](component) to me.
+    - Explain the [Checkbox](component) component to me.
+    - [radio](component)
+    - What is a [radio](component)?
+    - Tell me about the [radio](component).
+    - Give me details on the [radio](component) component.
+    - Explain the [radio](component) to me.
+    - Explain the [radio](component) component to me.
+    - [Radio](component)
+    - What is a [Radio](component)?
+    - Tell me about the [Radio](component).
+    - Give me details on the [Radio](component) component.
+    - Explain the [Radio](component) to me.
+    - Explain the [Radio](component) component to me.
+    - [text area](component)
+    - What is a [text area](component)?
+    - Tell me about the [text area](component).
+    - Give me details on the [text area](component) component.
+    - Explain the [text area](component) to me.
+    - Explain the [text area](component) component to me.
+    - [Text area](component)
+    - What is a [Text area](component)?
+    - Tell me about the [Text area](component).
+    - Give me details on the [Text area](component) component.
+    - Explain the [Text area](component) to me.
+    - Explain the [Text area](component) component to me.
+    - [text input](component)
+    - What is a [text input](component)?
+    - Tell me about the [text input](component).
+    - Give me details on the [text input](component) component.
+    - Explain the [text input](component) to me.
+    - Explain the [text input](component) component to me.
+    - [Text input](component)
+    - What is a [Text input](component)?
+    - Tell me about the [Text input](component).
+    - Give me details on the [Text input](component) component.
+    - Explain the [Text input](component) to me.
+    - Explain the [Text input](component) component to me.
+    - [helper text](component)
+    - What is a [helper text](component)?
+    - Tell me about the [helper text](component).
+    - Give me details on the [helper text](component) component.
+    - Explain the [helper text](component) to me.
+    - Explain the [helper text](component) component to me.
+    - [Helper text](component)
+    - What is a [Helper text](component)?
+    - Tell me about the [Helper text](component).
+    - Give me details on the [Helper text](component) component.
+    - Explain the [Helper text](component) to me.
+    - Explain the [Helper text](component) component to me.
+    - [hint](component)
+    - What is a [hint](component)?
+    - Tell me about the [hint](component).
+    - Give me details on the [hint](component) component.
+    - Explain the [hint](component) to me.
+    - Explain the [hint](component) component to me.
+    - [Hint](component)
+    - What is a [Hint](component)?
+    - Tell me about the [Hint](component).
+    - Give me details on the [Hint](component) component.
+    - Explain the [Hint](component) to me.
+    - Explain the [Hint](component) component to me.
+    - [chip](component)
+    - What is a [chip](component)?
+    - Tell me about the [chip](component).
+    - Give me details on the [chip](component) component.
+    - Explain the [chip](component) to me.
+    - Explain the [chip](component) component to me.
+    - [Chip](component)
+    - What is a [Chip](component)?
+    - Tell me about the [Chip](component).
+    - Give me details on the [Chip](component) component.
+    - Explain the [Chip](component) to me.
+    - Explain the [Chip](component) component to me.
+    - [icon](component)
+    - What is an [icon](component)?
+    - Tell me about the [icon](component).
+    - Give me details on the [icon](component) component.
+    - Explain the [icon](component) to me.
+    - Explain the [icon](component) component to me.
+    - [Icon](component)
+    - What is an [Icon](component)?
+    - Tell me about the [Icon](component).
+    - Give me details on the [Icon](component) component.
+    - Explain the [Icon](component) to me.
+    - Explain the [Icon](component) component to me.
+    - [inline edit](component)
+    - What is an [inline edit](component)?
+    - Tell me about the [inline edit](component).
+    - Give me details on the [inline edit](component) component.
+    - Explain the [inline edit](component) to me.
+    - Explain the [inline edit](component) component to me.
+    - [Inline edit](component)
+    - What is an [Inline edit](component)?
+    - Tell me about the [Inline edit](component).
+    - Give me details on the [Inline edit](component) component.
+    - Explain the [Inline edit](component) to me.
+    - Explain the [Inline edit](component) component to me.
+    - [input group](component)
+    - What is an [input group](component)?
+    - Tell me about the [input group](component).
+    - Give me details on the [input group](component) component.
+    - Explain the [input group](component) to me.
+    - Explain the [input group](component) component to me.
+    - [Input group](component)
+    - What is an [Input group](component)?
+    - Tell me about the [Input group](component).
+    - Give me details on the [Input group](component) component.
+    - Explain the [Input group](component) to me.
+    - Explain the [Input group](component) component to me.
+    - [jump links](component)
+    - What is a [jump links](component)?
+    - Tell me about the [jump links](component).
+    - Give me details on the [jump links](component) component.
+    - Explain the [jump links](component) to me.
+    - Explain the [jump links](component) component to me.
+    - [Jump links](component)
+    - What is a [Jump links](component)?
+    - Tell me about the [Jump links](component).
+    - Give me details on the [Jump links](component) component.
+    - Explain the [Jump links](component) to me.
+    - Explain the [Jump links](component) component to me.
+    - [label](component)
+    - What is a [label](component)?
+    - Tell me about the [label](component).
+    - Give me details on the [label](component) component.
+    - Explain the [label](component) to me.
+    - Explain the [label](component) component to me.
+    - [Label](component)
+    - What is a [Label](component)?
+    - Tell me about the [Label](component).
+    - Give me details on the [Label](component) component.
+    - Explain the [Label](component) to me.
+    - Explain the [Label](component) component to me.
+    - [list](component)
+    - What is a [list](component)?
+    - Tell me about the [list](component).
+    - Give me details on the [list](component) component.
+    - Explain the [list](component) to me.
+    - Explain the [list](component) component to me.
+    - [List](component)
+    - What is a [List](component)?
+    - Tell me about the [List](component).
+    - Give me details on the [List](component) component.
+    - Explain the [List](component) to me.
+    - Explain the [List](component) component to me.
+    - [login page](component)
+    - What is a [login page](component)?
+    - Tell me about the [login page](component).
+    - Give me details on the [login page](component) component.
+    - Explain the [login page](component) to me.
+    - Explain the [login page](component) component to me.
+    - [Login page](component)
+    - What is a [Login page](component)?
+    - Tell me about the [Login page](component).
+    - Give me details on the [Login page](component) component.
+    - Explain the [Login page](component) to me.
+    - Explain the [Login page](component) component to me.
+    - [masthead](component)
+    - What is a [masthead](component)?
+    - Tell me about the [masthead](component).
+    - Give me details on the [masthead](component) component.
+    - Explain the [masthead](component) to me.
+    - Explain the [masthead](component) component to me.
+    - [Masthead](component)
+    - What is a [Masthead](component)?
+    - Tell me about the [Masthead](component).
+    - Give me details on the [Masthead](component) component.
+    - Explain the [Masthead](component) to me.
+    - Explain the [Masthead](component) component to me.
+    - [application launcher](component)
+    - What is an [application launcher](component)?
+    - Tell me about the [application launcher](component).
+    - Give me details on the [application launcher](component) component.
+    - Explain the [application launcher](component) to me.
+    - Explain the [application launcher](component) component to me.
+    - [Application launcher](component)
+    - What is an [Application launcher](component)?
+    - Tell me about the [Application launcher](component).
+    - Give me details on the [Application launcher](component) component.
+    - Explain the [Application launcher](component) to me.
+    - Explain the [Application launcher](component) component to me.
+    - [context selector](component)
+    - What is a [context selector](component)?
+    - Tell me about the [context selector](component).
+    - Give me details on the [context selector](component) component.
+    - Explain the [context selector](component) to me.
+    - Explain the [context selector](component) component to me.
+    - [Context selector](component)
+    - What is a [Context selector](component)?
+    - Tell me about the [Context selector](component).
+    - Give me details on the [Context selector](component) component.
+    - Explain the [Context selector](component) to me.
+    - Explain the [Context selector](component) component to me.
+    - [custom menus](component)
+    - What is a [custom menus](component)?
+    - Tell me about the [custom menus](component).
+    - Give me details on the [custom menus](component) component.
+    - Explain the [custom menus](component) to me.
+    - Explain the [custom menus](component) component to me.
+    - [Custom menus](component)
+    - What is a [Custom menus](component)?
+    - Tell me about the [Custom menus](component).
+    - Give me details on the [Custom menus](component) component.
+    - Explain the [Custom menus](component) to me.
+    - Explain the [Custom menus](component) component to me.
+    - [dropdown](component)
+    - What is a [dropdown](component)?
+    - Tell me about the [dropdown](component).
+    - Give me details on the [dropdown](component) component.
+    - Explain the [dropdown](component) to me.
+    - Explain the [dropdown](component) component to me.
+    - [Dropdown](component)
+    - What is a [Dropdown](component)?
+    - Tell me about the [Dropdown](component).
+    - Give me details on the [Dropdown](component) component.
+    - Explain the [Dropdown](component) to me.
+    - Explain the [Dropdown](component) component to me.
+    - [menu](component)
+    - What is a [menu](component)?
+    - Tell me about the [menu](component).
+    - Give me details on the [menu](component) component.
+    - Explain the [menu](component) to me.
+    - Explain the [menu](component) component to me.
+    - [Menu](component)
+    - What is a [Menu](component)?
+    - Tell me about the [Menu](component).
+    - Give me details on the [Menu](component) component.
+    - Explain the [Menu](component) to me.
+    - Explain the [Menu](component) component to me.
+    - [menu toggle](component)
+    - What is a [menu toggle](component)?
+    - Tell me about the [menu toggle](component).
+    - Give me details on the [menu toggle](component) component.
+    - Explain the [menu toggle](component) to me.
+    - Explain the [menu toggle](component) component to me.
+    - [Menu toggle](component)
+    - What is a [Menu toggle](component)?
+    - Tell me about the [Menu toggle](component).
+    - Give me details on the [Menu toggle](component) component.
+    - Explain the [Menu toggle](component) to me.
+    - Explain the [Menu toggle](component) component to me.
+    - [options menu](component)
+    - What is an [options menu](component)?
+    - Tell me about the [options menu](component).
+    - Give me details on the [options menu](component) component.
+    - Explain the [options menu](component) to me.
+    - Explain the [options menu](component) component to me.
+    - [Options menu](component)
+    - What is an [Options menu](component)?
+    - Tell me about the [Options menu](component).
+    - Give me details on the [Options menu](component) component.
+    - Explain the [Options menu](component) to me.
+    - Explain the [Options menu](component) component to me.
+    - [select](component)
+    - What is a [select](component)?
+    - Tell me about the [select](component).
+    - Give me details on the [select](component) component.
+    - Explain the [select](component) to me.
+    - Explain the [select](component) component to me.
+    - [Select](component)
+    - What is a [Select](component)?
+    - Tell me about the [Select](component).
+    - Give me details on the [Select](component) component.
+    - Explain the [Select](component) to me.
+    - Explain the [Select](component) component to me.
+    - [modal](component)
+    - What is a [modal](component)?
+    - Tell me about the [modal](component).
+    - Give me details on the [modal](component) component.
+    - Explain the [modal](component) to me.
+    - Explain the [modal](component) component to me.
+    - [Modal](component)
+    - What is a [Modal](component)?
+    - Tell me about the [Modal](component).
+    - Give me details on the [Modal](component) component.
+    - Explain the [Modal](component) to me.
+    - Explain the [Modal](component) component to me.
+    - [navigation](component)
+    - What is a [navigation](component)?
+    - Tell me about the [navigation](component).
+    - Give me details on the [navigation](component) component.
+    - Explain the [navigation](component) to me.
+    - Explain the [navigation](component) component to me.
+    - [Navigation](component)
+    - What is a [Navigation](component)?
+    - Tell me about the [Navigation](component).
+    - Give me details on the [Navigation](component) component.
+    - Explain the [Navigation](component) to me.
+    - Explain the [Navigation](component) component to me.
+    - [notification badge](component)
+    - What is a [notification badge](component)?
+    - Tell me about the [notification badge](component).
+    - Give me details on the [notification badge](component) component.
+    - Explain the [notification badge](component) to me.
+    - Explain the [notification badge](component) component to me.
+    - [Notification badge](component)
+    - What is a [Notification badge](component)?
+    - Tell me about the [Notification badge](component).
+    - Give me details on the [Notification badge](component) component.
+    - Explain the [Notification badge](component) to me.
+    - Explain the [Notification badge](component) component to me.
+    - [notification drawer](component)
+    - What is a [notification drawer](component)?
+    - Tell me about the [notification drawer](component).
+    - Give me details on the [notification drawer](component) component.
+    - Explain the [notification drawer](component) to me.
+    - Explain the [notification drawer](component) component to me.
+    - [Notification drawer](component)
+    - What is a [Notification drawer](component)?
+    - Tell me about the [Notification drawer](component).
+    - Give me details on the [Notification drawer](component) component.
+    - Explain the [Notification drawer](component) to me.
+    - Explain the [Notification drawer](component) component to me.
+    - [number input](component)
+    - What is a [number input](component)?
+    - Tell me about the [number input](component).
+    - Give me details on the [number input](component) component.
+    - Explain the [number input](component) to me.
+    - Explain the [number input](component) component to me.
+    - [Number input](component)
+    - What is a [Number input](component)?
+    - Tell me about the [Number input](component).
+    - Give me details on the [Number input](component) component.
+    - Explain the [Number input](component) to me.
+    - Explain the [Number input](component) component to me.
+    - [overflow menu](component)
+    - What is an [overflow menu](component)?
+    - Tell me about the [overflow menu](component).
+    - Give me details on the [overflow menu](component) component.
+    - Explain the [overflow menu](component) to me.
+    - Explain the [overflow menu](component) component to me.
+    - [Overflow menu](component)
+    - What is an [Overflow menu](component)?
+    - Tell me about the [Overflow menu](component).
+    - Give me details on the [Overflow menu](component) component.
+    - Explain the [Overflow menu](component) to me.
+    - Explain the [Overflow menu](component) component to me.
+    - [page](component)
+    - What is a [page](component)?
+    - Tell me about the [page](component).
+    - Give me details on the [page](component) component.
+    - Explain the [page](component) to me.
+    - Explain the [page](component) component to me.
+    - [Page](component)
+    - What is a [Page](component)?
+    - Tell me about the [Page](component).
+    - Give me details on the [Page](component) component.
+    - Explain the [Page](component) to me.
+    - Explain the [Page](component) component to me.
+    - [pagination](component)
+    - What is a [pagination](component)?
+    - Tell me about the [pagination](component).
+    - Give me details on the [pagination](component) component.
+    - Explain the [pagination](component) to me.
+    - Explain the [pagination](component) component to me.
+    - [Pagination](component)
+    - What is a [Pagination](component)?
+    - Tell me about the [Pagination](component).
+    - Give me details on the [Pagination](component) component.
+    - Explain the [Pagination](component) to me.
+    - Explain the [Pagination](component) component to me.
+    - [panel](component)
+    - What is a [panel](component)?
+    - Tell me about the [panel](component).
+    - Give me details on the [panel](component) component.
+    - Explain the [panel](component) to me.
+    - Explain the [panel](component) component to me.
+    - [Panel](component)
+    - What is a [Panel](component)?
+    - Tell me about the [Panel](component).
+    - Give me details on the [Panel](component) component.
+    - Explain the [Panel](component) to me.
+    - Explain the [Panel](component) component to me.
+    - [password generator](component)
+    - What is a [password generator](component)?
+    - Tell me about the [password generator](component).
+    - Give me details on the [password generator](component) component.
+    - Explain the [password generator](component) to me.
+    - Explain the [password generator](component) component to me.
+    - [Password generator](component)
+    - What is a [Password generator](component)?
+    - Tell me about the [Password generator](component).
+    - Give me details on the [Password generator](component) component.
+    - Explain the [Password generator](component) to me.
+    - Explain the [Password generator](component) component to me.
+    - [password strength](component)
+    - What is a [password strength](component)?
+    - Tell me about the [password strength](component).
+    - Give me details on the [password strength](component) component.
+    - Explain the [password strength](component) to me.
+    - Explain the [password strength](component) component to me.
+    - [Password strength](component)
+    - What is a [Password strength](component)?
+    - Tell me about the [Password strength](component).
+    - Give me details on the [Password strength](component) component.
+    - Explain the [Password strength](component) to me.
+    - Explain the [Password strength](component) component to me.
+    - [popover](component)
+    - What is a [popover](component)?
+    - Tell me about the [popover](component).
+    - Give me details on the [popover](component) component.
+    - Explain the [popover](component) to me.
+    - Explain the [popover](component) component to me.
+    - [Popover](component)
+    - What is a [Popover](component)?
+    - Tell me about the [Popover](component).
+    - Give me details on the [Popover](component) component.
+    - Explain the [Popover](component) to me.
+    - Explain the [Popover](component) component to me.
+    - [progress](component)
+    - What is a [progress](component)?
+    - Tell me about the [progress](component).
+    - Give me details on the [progress](component) component.
+    - Explain the [progress](component) to me.
+    - Explain the [progress](component) component to me.
+    - [Progress](component)
+    - What is a [Progress](component)?
+    - Tell me about the [Progress](component).
+    - Give me details on the [Progress](component) component.
+    - Explain the [Progress](component) to me.
+    - Explain the [Progress](component) component to me.
+    - [progress stepper](component)
+    - What is a [progress stepper](component)?
+    - Tell me about the [progress stepper](component).
+    - Give me details on the [progress stepper](component) component.
+    - Explain the [progress stepper](component) to me.
+    - Explain the [progress stepper](component) component to me.
+    - [Progress stepper](component)
+    - What is a [Progress stepper](component)?
+    - Tell me about the [Progress stepper](component).
+    - Give me details on the [Progress stepper](component) component.
+    - Explain the [Progress stepper](component) to me.
+    - Explain the [Progress stepper](component) component to me.
+    - [search input](component)
+    - What is a [search input](component)?
+    - Tell me about the [search input](component).
+    - Give me details on the [search input](component) component.
+    - Explain the [search input](component) to me.
+    - Explain the [search input](component) component to me.
+    - [Search input](component)
+    - What is a [Search input](component)?
+    - Tell me about the [Search input](component).
+    - Give me details on the [Search input](component) component.
+    - Explain the [Search input](component) to me.
+    - Explain the [Search input](component) component to me.
+    - [sidebar](component)
+    - What is a [sidebar](component)?
+    - Tell me about the [sidebar](component).
+    - Give me details on the [sidebar](component) component.
+    - Explain the [sidebar](component) to me.
+    - Explain the [sidebar](component) component to me.
+    - [Sidebar](component)
+    - What is a [Sidebar](component)?
+    - Tell me about the [Sidebar](component).
+    - Give me details on the [Sidebar](component) component.
+    - Explain the [Sidebar](component) to me.
+    - Explain the [Sidebar](component) component to me.
+    - [simple list](component)
+    - What is a [simple list](component)?
+    - Tell me about the [simple list](component).
+    - Give me details on the [simple list](component) component.
+    - Explain the [simple list](component) to me.
+    - Explain the [simple list](component) component to me.
+    - [Simple list](component)
+    - What is a [Simple list](component)?
+    - Tell me about the [Simple list](component).
+    - Give me details on the [Simple list](component) component.
+    - Explain the [Simple list](component) to me.
+    - Explain the [Simple list](component) component to me.
+    - [skeleton](component)
+    - What is a [skeleton](component)?
+    - Tell me about the [skeleton](component).
+    - Give me details on the [skeleton](component) component.
+    - Explain the [skeleton](component) to me.
+    - Explain the [skeleton](component) component to me.
+    - [Skeleton](component)
+    - What is a [Skeleton](component)?
+    - Tell me about the [Skeleton](component).
+    - Give me details on the [Skeleton](component) component.
+    - Explain the [Skeleton](component) to me.
+    - Explain the [Skeleton](component) component to me.
+    - [skip to content](component)
+    - What is a [skip to content](component)?
+    - Tell me about the [skip to content](component).
+    - Give me details on the [skip to content](component) component.
+    - Explain the [skip to content](component) to me.
+    - Explain the [skip to content](component) component to me.
+    - [Skip to content](component)
+    - What is a [Skip to content](component)?
+    - Tell me about the [Skip to content](component).
+    - Give me details on the [Skip to content](component) component.
+    - Explain the [Skip to content](component) to me.
+    - Explain the [Skip to content](component) component to me.
+    - [slider](component)
+    - What is a [slider](component)?
+    - Tell me about the [slider](component).
+    - Give me details on the [slider](component) component.
+    - Explain the [slider](component) to me.
+    - Explain the [slider](component) component to me.
+    - [Slider](component)
+    - What is a [Slider](component)?
+    - Tell me about the [Slider](component).
+    - Give me details on the [Slider](component) component.
+    - Explain the [Slider](component) to me.
+    - Explain the [Slider](component) component to me.
+    - [spinner](component)
+    - What is a [spinner](component)?
+    - Tell me about the [spinner](component).
+    - Give me details on the [spinner](component) component.
+    - Explain the [spinner](component) to me.
+    - Explain the [spinner](component) component to me.
+    - [Spinner](component)
+    - What is a [Spinner](component)?
+    - Tell me about the [Spinner](component).
+    - Give me details on the [Spinner](component) component.
+    - Explain the [Spinner](component) to me.
+    - Explain the [Spinner](component) component to me.
+    - [switch](component)
+    - What is a [switch](component)?
+    - Tell me about the [switch](component).
+    - Give me details on the [switch](component) component.
+    - Explain the [switch](component) to me.
+    - Explain the [switch](component) component to me.
+    - [Switch](component)
+    - What is a [Switch](component)?
+    - Tell me about the [Switch](component).
+    - Give me details on the [Switch](component) component.
+    - Explain the [Switch](component) to me.
+    - Explain the [Switch](component) component to me.
+    - [tab content](component)
+    - What is a [tab content](component)?
+    - Tell me about the [tab content](component).
+    - Give me details on the [tab content](component) component.
+    - Explain the [tab content](component) to me.
+    - Explain the [tab content](component) component to me.
+    - [Tab content](component)
+    - What is a [Tab content](component)?
+    - Tell me about the [Tab content](component).
+    - Give me details on the [Tab content](component) component.
+    - Explain the [Tab content](component) to me.
+    - Explain the [Tab content](component) component to me.
+    - [table](component)
+    - What is a [table](component)?
+    - Tell me about the [table](component).
+    - Give me details on the [table](component) component.
+    - Explain the [table](component) to me.
+    - Explain the [table](component) component to me.
+    - [Table](component)
+    - What is a [Table](component)?
+    - Tell me about the [Table](component).
+    - Give me details on the [Table](component) component.
+    - Explain the [Table](component) to me.
+    - Explain the [Table](component) component to me.
+    - [tabs](component)
+    - What is a [tabs](component)?
+    - Tell me about the [tabs](component).
+    - Give me details on the [tabs](component) component.
+    - Explain the [tabs](component) to me.
+    - Explain the [tabs](component) component to me.
+    - [Tabs](component)
+    - What is a [Tabs](component)?
+    - Tell me about the [Tabs](component).
+    - Give me details on the [Tabs](component) component.
+    - Explain the [Tabs](component) to me.
+    - Explain the [Tabs](component) component to me.
+    - [text](component)
+    - What is a [text](component)?
+    - Tell me about the [text](component).
+    - Give me details on the [text](component) component.
+    - Explain the [text](component) to me.
+    - Explain the [text](component) component to me.
+    - [Text](component)
+    - What is a [Text](component)?
+    - Tell me about the [Text](component).
+    - Give me details on the [Text](component) component.
+    - Explain the [Text](component) to me.
+    - Explain the [Text](component) component to me.
+    - [text input group](component)
+    - What is a [text input group](component)?
+    - Tell me about the [text input group](component).
+    - Give me details on the [text input group](component) component.
+    - Explain the [text input group](component) to me.
+    - Explain the [text input group](component) component to me.
+    - [Text input group](component)
+    - What is a [Text input group](component)?
+    - Tell me about the [Text input group](component).
+    - Give me details on the [Text input group](component) component.
+    - Explain the [Text input group](component) to me.
+    - Explain the [Text input group](component) component to me.
+    - [tile](component)
+    - What is a [tile](component)?
+    - Tell me about the [tile](component).
+    - Give me details on the [tile](component) component.
+    - Explain the [tile](component) to me.
+    - Explain the [tile](component) component to me.
+    - [Tile](component)
+    - What is a [Tile](component)?
+    - Tell me about the [Tile](component).
+    - Give me details on the [Tile](component) component.
+    - Explain the [Tile](component) to me.
+    - Explain the [Tile](component) component to me.
+    - [timestamp](component)
+    - What is a [timestamp](component)?
+    - Tell me about the [timestamp](component).
+    - Give me details on the [timestamp](component) component.
+    - Explain the [timestamp](component) to me.
+    - Explain the [timestamp](component) component to me.
+    - [Timestamp](component)
+    - What is a [Timestamp](component)?
+    - Tell me about the [Timestamp](component).
+    - Give me details on the [Timestamp](component) component.
+    - Explain the [Timestamp](component) to me.
+    - Explain the [Timestamp](component) component to me.
+    - [title](component)
+    - What is a [title](component)?
+    - Tell me about the [title](component).
+    - Give me details on the [title](component) component.
+    - Explain the [title](component) to me.
+    - Explain the [title](component) component to me.
+    - [Title](component)
+    - What is a [Title](component)?
+    - Tell me about the [Title](component).
+    - Give me details on the [Title](component) component.
+    - Explain the [Title](component) to me.
+    - Explain the [Title](component) component to me.
+    - [toggle group](component)
+    - What is a [toggle group](component)?
+    - Tell me about the [toggle group](component).
+    - Give me details on the [toggle group](component) component.
+    - Explain the [toggle group](component) to me.
+    - Explain the [toggle group](component) component to me.
+    - [Toggle group](component)
+    - What is a [Toggle group](component)?
+    - Tell me about the [Toggle group](component).
+    - Give me details on the [Toggle group](component) component.
+    - Explain the [Toggle group](component) to me.
+    - Explain the [Toggle group](component) component to me.
+    - [toolbar](component)
+    - What is a [toolbar](component)?
+    - Tell me about the [toolbar](component).
+    - Give me details on the [toolbar](component) component.
+    - Explain the [toolbar](component) to me.
+    - Explain the [toolbar](component) component to me.
+    - [Toolbar](component)
+    - What is a [Toolbar](component)?
+    - Tell me about the [Toolbar](component).
+    - Give me details on the [Toolbar](component) component.
+    - Explain the [Toolbar](component) to me.
+    - Explain the [Toolbar](component) component to me.
+    - [tooltip](component)
+    - What is a [tooltip](component)?
+    - Tell me about the [tooltip](component).
+    - Give me details on the [tooltip](component) component.
+    - Explain the [tooltip](component) to me.
+    - Explain the [tooltip](component) component to me.
+    - [Tooltip](component)
+    - What is a [Tooltip](component)?
+    - Tell me about the [Tooltip](component).
+    - Give me details on the [Tooltip](component) component.
+    - Explain the [Tooltip](component) to me.
+    - Explain the [Tooltip](component) component to me.
+    - [tree view](component)
+    - What is a [tree view](component)?
+    - Tell me about the [tree view](component).
+    - Give me details on the [tree view](component) component.
+    - Explain the [tree view](component) to me.
+    - Explain the [tree view](component) component to me.
+    - [Tree view](component)
+    - What is a [Tree view](component)?
+    - Tell me about the [Tree view](component).
+    - Give me details on the [Tree view](component) component.
+    - Explain the [Tree view](component) to me.
+    - Explain the [Tree view](component) component to me.
+    - [truncate](component)
+    - What is a [truncate](component)?
+    - Tell me about the [truncate](component).
+    - Give me details on the [truncate](component) component.
+    - Explain the [truncate](component) to me.
+    - Explain the [truncate](component) component to me.
+    - [Truncate](component)
+    - What is a [Truncate](component)?
+    - Tell me about the [Truncate](component).
+    - Give me details on the [Truncate](component) component.
+    - Explain the [Truncate](component) to me.
+    - Explain the [Truncate](component) component to me.
+    - [wizard](component)
+    - What is a [wizard](component)?
+    - Tell me about the [wizard](component).
+    - Give me details on the [wizard](component) component.
+    - Explain the [wizard](component) to me.
+    - Explain the [wizard](component) component to me.
+    - [Wizard](component)
+    - What is a [Wizard](component)?
+    - Tell me about the [Wizard](component).
+    - Give me details on the [Wizard](component) component.
+    - Explain the [Wizard](component) to me.
+    - Explain the [Wizard](component) component to me.

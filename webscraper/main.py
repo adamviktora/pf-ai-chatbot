@@ -1,5 +1,4 @@
 import json
-from pprint import pprint
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -28,7 +27,7 @@ for li in list_items:
 elements = goal_li[0].find_elements(By.TAG_NAME, "a")
 hrefs = [element.get_attribute("href") for element in elements]
 
-components = []
+components = {}
 
 for href in hrefs:
     if "all-components" in href:
@@ -37,15 +36,15 @@ for href in hrefs:
     name = driver.find_element(By.ID, "ws-page-title").text
     div_elem = driver.find_element(By.CSS_SELECTOR, "div.pf-v5-c-page__main-group")
     description = div_elem.find_element(By.TAG_NAME, "p").text
-    components.append({"name": name, "link": href, "description": description})
+    components[name.lower()] = {"name": name, "link": href, "description": description}
 
 driver.quit()
 
 # Specify the file path
-file_path = "components.json"
+file_path = "../chatbot/actions/components.json"
 
 # Save the data as JSON
 with open(file_path, "w") as json_file:
     json.dump(components, json_file)
 
-pprint(components)
+print(f"Components details were saved to {file_path}")

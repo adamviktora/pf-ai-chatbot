@@ -8,9 +8,10 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - what_patternfly
+  - patternfly_info
   - help
   - quickstart
+  - get_component_info
 
 responses:
   utter_greet:
@@ -39,24 +40,12 @@ responses:
   utter_quickstart:
   - text: "Here is a link to About PatternFly which can help you orient more on this website: http://localhost:8003/get-started/about"
 
-entities:
-- destination
-- name
+actions:
+- action_get_component_info
 
-slots:
-  destination:
-    type: text
-    influence_conversation: true
-    mappings:
-    - type: from_entity
-      entity: destination
-  name:
-    type: text
-    influence_conversation: true
-    mappings:
-      - type: from_entity
-        entity: name
-        intent: greet
+entities:
+- name
+- component
 
 session_config:
   session_expiration_time: 60
